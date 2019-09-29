@@ -1,3 +1,49 @@
 .list-group-item {
-  line-height: 2.5;
+    line-height: 2.5;
+}
+
+section {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a,
+a:visited {
+    color: #000000;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    list-style-type: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #FF0077;
+    outline: 0;
+}
+
+#home {
+    background-color: black;
+    height: 200px;
+}
+
+#treatments {
+    background-color: white;
+    height: 200px;
+}
+
+#lashes {
+    background-color: pink;
+    height: 200px;
+}
+
+#products {
+    background-color: yellow;
+    height: 200px;
 }
