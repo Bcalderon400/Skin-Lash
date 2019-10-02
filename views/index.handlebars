@@ -1,57 +1,97 @@
-<div class="row">
+<!DOCTYPE html>
+<html lang="en">
 
-  <div class="top-bar">
-    <nav id="main-nav-wrap">
-      <ul class="main-navigation">
-        <li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
-        <li><a class="smoothscroll" href="#treatments" title="">Treatments</a></li>
-        <li><a class="smoothscroll" href="#lashes" title="">Lashes</a></li>
-        <li><a class="smoothscroll" href="#products" title="">Products</a></li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
 
-        <!-- <li><a href="styles.html" title="">Style Demo</a></li> -->
-      </ul>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+
+
+  <div class="nav-bar fixed-top ">
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+
+      <!-- Menu Icon -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+        <!-- Nav Links -->
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item ">
+            <a class="nav-link text-light" href="#section1">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-light" href="#section2">Treatments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#section3">Lashes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#section4">Products</a>
+          </li>
+        </ul>
+
+        <!-- <img src="./assets/img/cart.png" alt="cart"> -->
+
+
+      </div>
     </nav>
   </div>
-  <!-- /top-bar -->
-</div>
-{{!-- sections --}}
-<section id="home"></section>
-<section id="treatments"></section>
-<section id="lashes"></section>
-<section id="products"></section>
+  </nav>
 
-{{!-- <div id="home">
-  <div class="container">
-    <div class="row">
-      <div class="col-8 offset-2">
-        <h1>{{msg}}</h1>
-        <h2>This is our Home Page!</h2>
-        <form class="clearfix mb-4" action="POST">
-          <div class="form-group">
-            <label for="example-text">Example Text</label>
-            <input type="text" id="example-text" class="form-control" aria-describedby="example-text"
-              placeholder="Enter Example Text">
-          </div>
-          <div class="form-group">
-            <label for="example-description">Example Description</label>
-            <textarea class="form-control" id="example-description" aria-describedby="example-description"
-              placeholder="Enter Example Description"></textarea>
-          </div>
-          <button id="submit" class="btn btn-primary float-right">Submit</button>
-        </form>
-        <h3>Examples:</h3>
-        <ul id="example-list" class="list-group">
-          {{#each examples}}
-          <li data-id="{{this.id}}" class="list-group-item">
-            <a href="example/{{this.id}}">{{this.text}}</a>
-            <button class="btn btn-danger float-right delete">ｘ</button>
-          </li>
-          {{/each}}
-        </ul>
-      </div>
-    </div>
   </div>
-</div> --}}
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="/js/index.js"></script>
+  <!-- Home Page -->
+  <div class="main" id="section1">
+
+    <!-- Tittle and Book Now button -->
+    <div class="card text-center bg-transparent border-0">
+
+      <div class="card-body">
+        <h1 class="card-title">Le Meilleure Lashes</h1>
+        <p class="card-text"> By K. Calderon</p>
+        <button type="button" class="btn btn-outline-light btn-lg"><span>Contact Now!</span></button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Treatment Page -->
+  <div class="main" id="section2">
+    <h1>section 2</h1>
+  </div>
+  <div class="main" id="section3">
+    <h1>section 3</h1>
+  </div>
+  <div class="main" id="section4">
+    <h1>section 4</h1>
+  </div>
+
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
