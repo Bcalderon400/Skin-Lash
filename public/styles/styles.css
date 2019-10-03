@@ -1,10 +1,10 @@
-/* Body */
+/* BODY */
 
 h1 {
+    color: black;
     font-family: "Great Vibes", cursive;
     font-size: 7.5em;
     padding: 10px;
-    text-shadow: 0px 1px #172321;
     background: -webkit-linear-gradient(right, red 0%, purple 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -19,6 +19,7 @@ h1 {
     font-size: 1.2em;
     font-weight: 500;
     font-family: "Quicksand", sans-serif;
+    text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black;
 }
 
 
@@ -34,7 +35,7 @@ h1 {
 }
 
 
-/* Home Page */
+/* HOME PAGE */
 
 #section1 {
     background-image: url(../img/room-2103284_1920.jpg);
@@ -62,11 +63,38 @@ h1 {
 }
 
 
-/* Treatment Page */
+/* SERVICE PAGE*/
 
 #section2 {
     background-color: #e1dac1;
 }
+
+
+/*  pricing tables */
+
+.h6 {
+    background: -webkit-linear-gradient(right, red 0%, purple 100%);
+}
+
+.card-pricing .list-unstyled li {
+    padding: 0.5rem 0;
+    color: black;
+}
+
+.card-pricing:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    border-image: linear-gradient(to left, red 0%, purple 100%);
+    border-image-slice: 1;
+    border-width: 2px;
+}
+
+
+/* ******************************** */
+
+
+/* ********************************* */
 
 
 /* Lashes Page */
@@ -76,6 +104,12 @@ h1 {
 }
 
 
+/* ********************************* */
+
+
+/* ********************************* */
+
+
 /* Products */
 
 #section4 {
@@ -83,47 +117,7 @@ h1 {
 }
 
 
-/*search box css start here*/
-
-.search-sec {
-    padding: 2rem;
-}
-
-.search-slt {
-    display: block;
-    width: 100%;
-    font-size: 0.875rem;
-    line-height: 1.5;
-    color: #55595c;
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #ccc;
-    height: calc(3rem + 2px) !important;
-    border-radius: 0;
-}
-
-.wrn-btn {
-    width: 100%;
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: capitalize;
-    height: calc(3rem + 2px) !important;
-    border-radius: 0;
-}
-
-@media (min-width: 992px) {
-    .search-sec {
-        position: relative;
-        top: -114px;
-        background: rgba(26, 70, 104, 0.51);
-    }
-}
-
-@media (max-width: 992px) {
-    .search-sec {
-        background: #1a4668;
-    }
-}
+/* ********************************* */
 
 
 /* Contact */
