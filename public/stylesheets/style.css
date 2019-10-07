@@ -15,6 +15,10 @@ a.navbar-brand {
     font-weight: 700;
 }
 
+.navbar-brand:hover {
+    cursor: pointer;
+}
+
 nav.main-navigation {
     position: relative;
 }
@@ -69,15 +73,15 @@ a.nav-link {
 }
 
 .nav-list li:nth-child(1) {
-    animation-delay: .3s;
+    animation-delay: 0.3s;
 }
 
 .nav-list li:nth-child(2) {
-    animation-delay: .6s;
+    animation-delay: 0.6s;
 }
 
 .nav-list li:nth-child(3) {
-    animation-delay: .9s;
+    animation-delay: 0.9s;
 }
 
 .nav-list li:nth-child(4) {
@@ -93,21 +97,21 @@ a.nav-link {
 
 @keyframes fadeInUp {
     from {
-        transform: translate3d(0, 40px, 0)
+        transform: translate3d(0, 40px, 0);
     }
     to {
         transform: translate3d(0, 0, 0);
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @-webkit-keyframes fadeInUp {
     from {
-        transform: translate3d(0, 40px, 0)
+        transform: translate3d(0, 40px, 0);
     }
     to {
         transform: translate3d(0, 0, 0);
-        opacity: 1
+        opacity: 1;
     }
 }
 
@@ -115,11 +119,11 @@ a.nav-link {
     animation-duration: 1s;
     animation-fill-mode: both;
     -webkit-animation-duration: 1s;
-    -webkit-animation-fill-mode: both
+    -webkit-animation-fill-mode: both;
 }
 
 .animatedFadeInUp {
-    opacity: 0
+    opacity: 0;
 }
 
 .fadeInUp {
