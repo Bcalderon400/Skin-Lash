@@ -11,4 +11,4 @@ npm start
 #Screenshots
 
 ##Products page
-![Image description](C:\Users\brian\Desktop\Dev\Skin&lash\public\img\products.png)
+![Image description](public\img\products.png)
