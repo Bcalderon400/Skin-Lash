@@ -19,7 +19,7 @@ var app = express();
 
 
 // CONNECTING TO MONGODB SERVER
-mongoose.connect('mongodb://localhost:27017/shopping', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://briancalderon200@gmail.com:Theboss420!@cluster0-q5bgk.mongodb.net/admin?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
 require('./config/passport');
 
 // view engine setup
