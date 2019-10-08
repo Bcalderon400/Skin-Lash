@@ -22,7 +22,7 @@ npm start
    ![Image of Sign In](/public/img/signIn.png)
 
 3. Sign Up
-   ![Image of Sign Up](/public/img/singUp.png)
+   ![Image of Sign Up](/public/img/signUp.png)
 
 4. Empty Cart Page
    ![Image of Empty Cart](/public/img/empty.png)
