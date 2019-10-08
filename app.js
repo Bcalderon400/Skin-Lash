@@ -19,7 +19,8 @@ var app = express();
 
 
 // CONNECTING TO MONGODB SERVER
-mongoose.connect('mongodb+srv://briancalderon200@gmail.com:Theboss420!@cluster0-q5bgk.mongodb.net/admin?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://heroku_zfscvrfr:Theboss420!@ds331558.mlab.com:31558/heroku_zfscvrfr', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('', { useNewUrlParser: true, useUnifiedTopology: true });
 require('./config/passport');
 
 // view engine setup
