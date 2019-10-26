@@ -22,7 +22,7 @@ var app = express();
 // console.log(process.env.USER)
 
 mongoose.connect(
-  "mongodb://cali:Theboss420!@ds331558.mlab.com:31558/heroku_zfscvrfr",
+  "mongodb://brian:newpassword123@ds331558.mlab.com:31558/heroku_zfscvrfr",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
@@ -39,13 +39,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(validator());
 app.use(cookieParser());
-app.use(
-  session({
-    secret: "mysupersecret",
-    resave: false,
-    saveUninitialized: false
-  })
-);
+
 app.use(flash());
 app.use(passport.initialize());
 app.use(passport.session());
